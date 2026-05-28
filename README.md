@@ -1,3 +1,45 @@
+# Architectural Diagnostic Sample
+
+This repository contains an anonymized sample architectural report generated during a large-scale calibration run on a major Go codebase (~2,500 files).
+
+The goal of the project is to analyze software systems from a structural and architectural perspective, with a strong focus on:
+
+architectural consistency
+hidden coupling
+boundary violations
+dependency direction
+aggregate integrity
+long-term maintainability
+
+The current engine is intentionally conservative and non-commercial.
+The objective is not to generate “AI noise”, but to surface high-signal architectural issues with a low false-positive rate.
+
+This sample report is provided to demonstrate:
+
+analysis depth
+reporting style
+architectural reasoning quality
+signal/noise ratio
+Calibration Phase
+
+I am currently running a limited free calibration phase on real-world repositories in order to refine:
+
+false-positive detection
+severity scoring
+architectural relevance
+report clarity
+
+Because deep analysis runs have a non-trivial compute cost, only a limited number of repositories can be processed during this phase.
+
+## Interested?
+
+If you'd like your repository analyzed, feel free to reach out.
+
+LinkedIn:
+https://www.linkedin.com/in/hugo-vantighem-9669a14b/
+
+You can also open an issue or contact me directly.
+
 > **Sample excerpt.** This is a representative extract of a First-Pass Architectural Diagnostic: the findings overview table and one fully detailed finding. The target codebase has been anonymized. Wording, structure and depth are identical to a real deliverable.
 
 # First-Pass Architectural Diagnostic — [Anonymized Go Platform]
